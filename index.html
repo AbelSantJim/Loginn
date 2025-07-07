@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio de Sesion</title>
+  <link href="css/login.css" rel="stylesheet" />
+  <link rel="icon" href="assets/img/icono.png" type="image/png" />
+</head>
+<body>
+  <div class="container">
+    <h1>Inicio de sesion</h1>
+    <form id="loginForm">
+      <p>Correo Electronico:</p>
+      <input type="email" id="correo" placeholder="correo@ejemplo.com" required />
+      <p>Contraseña:</p>
+      <input type="password" id="contrasena" placeholder="••••••••" required />
+      <button type="submit" id="btnLogin">Iniciar sesión</button>
+    </form>
+    <p id="mensaje" style="color: red;"></p>
+  </div>
+
+  <script src="js/valid.js"></script>
+</body>
+</html>
