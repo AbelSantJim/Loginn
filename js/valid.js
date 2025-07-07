@@ -8,7 +8,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     mensaje.textContent = "Inicio de sesión exitoso. Redirigiendo...";
 
     setTimeout(() => {
-      window.open("http://localhost/Portafolio3/index.html", "_blank");
+      window.open("https://abelsantjim.github.io/PortafolioAbel/", "_blank");
     }, 1000);
   } else {
     mensaje.style.color = "red";
