@@ -21,5 +21,5 @@ document.getElementById("olvidoContrasena").addEventListener("click", function()
 
 document.getElementById("registrate").addEventListener("click", function(){
   alert("En un momento se abrira una nueva pestaña");
-})
+});
 
