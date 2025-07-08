@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    background: linear-gradient(135deg, #ED8485, #ACB6E5);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -63,4 +63,13 @@ button:hover {
 .icono{
     width: 70px;
     height: 50px;
+}
+.sub{
+    color: blue;
+    text-align: right;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content:right;
+    cursor: pointer;
+
 }
