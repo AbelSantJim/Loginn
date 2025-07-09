@@ -13,13 +13,12 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   }
 });
 document.getElementById("olvidoContrasena").addEventListener("click", function(){
-window.open("http://localhost/login/olvido.html", "_blank");
+window.open("olvido.html", "_blank");
 });
 
 document.getElementById("registrate").addEventListener("click", function(){
   alert("En un momento se abrira una nueva pestaña");
-  window.open("http://localhost/login/registro.html", "_blank");
- 
+  window.open("registro.html", "_blank"); 
 });
 document.getElementById("btnRecuperar").addEventListener("click", function(){
   alert("Se ha mandado un codigo de verificacion a su correo de respaldo");
